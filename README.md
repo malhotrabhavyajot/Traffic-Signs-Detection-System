@@ -22,7 +22,6 @@ This project requires **Python 3.5** and the following Python libraries installe
 
 This project uses the Traffic Sign Dataset. A pickled version that has images resized to 32x32 is available [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/October/580d53ce_traffic-sign-data/traffic-sign-data.zip). The pickle file was used as the raw data for this project.
 
-For dataset augmentation, run `python data_aug.py`
 
 ### How to run
 
@@ -32,4 +31,4 @@ If you want to run the model training and prediction on sample images, in a stan
 
 ### Pre-trained model
 
-The model I have trained is saved in `model.h5`, as a Keras model.
+The model I have trained is saved in `traffic_classifier.h5`, as a Keras model.
